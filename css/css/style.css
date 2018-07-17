@@ -1,0 +1,559 @@
+
+
+/*-----header start -------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #949494;
+}
+
+
+/*------font css start -----*/
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('../fonts/Roboto-Thin.woff2.html') format('woff2'), url('../fonts/Roboto-Thin.eot-.html#iefix') format('embedded-opentype'), url('../fonts/Roboto-Thin.woff.html') format('woff'), url('../fonts/Roboto-Thin.ttf.html') format('truetype'), url('../fonts/Roboto-Thin.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/Roboto-Light.woff2.html') format('woff2'), url('../fonts/Roboto-Light.eot-.html#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light.woff.html') format('woff'), url('../fonts/Roboto-Light.ttf.html') format('truetype'), url('../fonts/Roboto-Light.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url('../fonts/Roboto-Regular.woff2.html') format('woff2'), url('../fonts/Roboto-Regular.eot-.html#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff.html') format('woff'), url('../fonts/Roboto-Regular.ttf.html') format('truetype'), url('../fonts/Roboto-Regular.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/Roboto-Medium.woff2.html') format('woff2'), url('../fonts/Roboto-Medium.eot-.html#iefix') format('embedded-opentype'), url('../fonts/Roboto-Medium.woff.html') format('woff'), url('../fonts/Roboto-Medium.ttf.html') format('truetype'), url('../fonts/Roboto-Medium.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/Roboto-Bold.woff2.html') format('woff2'), url('../fonts/Roboto-Bold.eot-.html#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold.woff.html') format('woff'), url('../fonts/Roboto-Bold.ttf.html') format('truetype'), url('../fonts/Roboto-Bold.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/Roboto-Black.woff2.html') format('woff2'), url('../fonts/Roboto-Black.eot-.html#iefix') format('embedded-opentype'), url('../fonts/Roboto-Black.woff.html') format('woff'), url('../fonts/Roboto-Black.ttf.html') format('truetype'), url('../fonts/Roboto-Black.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/OpenSans-Light.woff2.html') format('woff2'), url('../fonts/OpenSans-Light.eot-.html#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light.woff.html') format('woff'), url('../fonts/OpenSans-Light.ttf.html') format('truetype'), url('../fonts/OpenSans-Light.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('../fonts/OpenSans-Regular.woff2.html') format('woff2'), url('../fonts/OpenSans-Regular.eot-.html#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular.woff.html') format('woff'), url('../fonts/OpenSans-Regular.ttf.html') format('truetype'), url('../fonts/OpenSans-Regular.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('../fonts/OpenSans-Semibold.woff2.html') format('woff2'), url('../fonts/OpenSans-Semibold.eot-.html#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold.woff.html') format('woff'), url('../fonts/OpenSans-Semibold.ttf.html') format('truetype'), url('../fonts/OpenSans-Semibold.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/OpenSans-Bold.woff2.html') format('woff2'), url('../fonts/OpenSans-Bold.eot-.html#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold.woff.html') format('woff'), url('../fonts/OpenSans-Bold.ttf.html') format('truetype'), url('../fonts/OpenSans-Bold.svg.html#svgFontName') format('svg');
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('../fonts/OpenSans-ExtraBold.woff2.html') format('woff2'), url('../fonts/OpenSans-ExtraBold.eot-.html#iefix') format('embedded-opentype'), url('../fonts/OpenSans-ExtraBold.woff.html') format('woff'), url('../fonts/OpenSans-ExtraBold.ttf.html') format('truetype'), url('../fonts/OpenSans-ExtraBold.svg.html#svgFontName') format('svg');
+}
+
+
+/*------font css end -----*/
+
+
+/*-----normal css start-----*/
+
+.temp1_toppadder10 {
+    padding-top: 10px;
+}
+
+.temp1_toppadder20 {
+    padding-top: 20px;
+}
+
+.temp1_toppadder30 {
+    padding-top: 30px;
+}
+
+.temp1_toppadder40 {
+    padding-top: 40px;
+}
+
+.temp1_toppadder50 {
+    padding-top: 50px;
+}
+
+.temp1_toppadder60 {
+    padding-top: 60px;
+}
+
+.temp1_toppadder70 {
+    padding-top: 70px;
+}
+
+.temp1_toppadder80 {
+    padding-top: 80px;
+}
+
+.temp1_toppadder90 {
+    padding-top: 90px;
+}
+
+.temp1_toppadder100 {
+    padding-top: 100px;
+}
+
+.temp1_bottompadder10 {
+    padding-bottom: 10px;
+}
+
+.temp1_bottompadder20 {
+    padding-bottom: 20px;
+}
+
+.temp1_bottompadder30 {
+    padding-bottom: 30px;
+}
+
+.temp1_bottompadder40 {
+    padding-bottom: 40px;
+}
+
+.temp1_bottompadder50 {
+    padding-bottom: 50px;
+}
+
+.temp1_bottompadder60 {
+    padding-bottom: 60px;
+}
+
+.temp1_bottompadder70 {
+    padding-bottom: 70px;
+}
+
+.temp1_bottompadder80 {
+    padding-bottom: 80px;
+}
+
+.temp1_bottompadder90 {
+    padding-bottom: 90px;
+}
+
+.temp1_bottompadder100 {
+    padding-bottom: 100px;
+}
+
+
+/*-----normal css end-----*/
+
+
+/*-----banner start ---*/
+
+.wb_iframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* padding-top: 25px; */
+    height: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.wb_iframe > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.temp1_bannerform .form-group .form-control:hover,
+.temp1_bannerform .form-group .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.temp1_bannerform .form-group:last-child {
+    margin-bottom: 0;
+}
+
+
+/*-----banner end ---*/
+
+
+/*-----client section start --------*/
+
+.temp1_client img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+}
+
+
+/*-----client section end --------*/
+
+
+/*-------simple procedure section start -----*/
+
+.temp1_procedurediv:after {
+    position: absolute;
+    content: '';
+    background-image: url("../images/arrow-1.png");
+    width: 110px;
+    height: 30px;
+    background-repeat: no-repeat;
+    top: 33%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: -14%;
+}
+
+.temp1_procedure_maindiv .temp1_procedurediv:nth-child(2):after {
+    background-image: url("../images/arrow-2.png");
+}
+
+.temp1_procedure_maindiv .temp1_procedurediv:last-child:after {
+    display: none;
+}
+
+
+/*-------simple procedure section end -----*/
+
+
+/*-------addbanner section start -----*/
+
+.temp1_yellow_wrapper a:hover {
+    background: #333 !important;
+}
+
+
+/*-------addbanner section end -----*/
+
+
+/*-----subscribe section start------*/
+
+.temp1_subscribeform .form-group:hover a {
+    background: #ffa900 !important;
+}
+
+
+/*-----subscribe section end------*/
+
+
+/*-----footer section strat------*/
+
+.temp1_footer_menu ul li a:hover {
+    color: #6363d9 !important;
+}
+
+
+/*-----footer section end------*/
+
+
+/*---------responsive css start -----*/
+
+@media (max-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .temp1_bannerform h4 {
+        font-size: 16px;
+    }
+    .temp1_course_data .temp1_course_data_left h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+    .temp1_course_data .temp1_course_data_left p {
+        font-size: 16px;
+    }
+    .temp1_mockup_data {
+        padding: 40px 0 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .temp1_banner {
+        padding: 70px 0;
+    }
+    .temp1_bannervideo {
+        padding-bottom: 0px;
+    }
+    .temp1_bottompadder100 {
+        padding-bottom: 50px;
+    }
+    .temp1_toppadder100 {
+        padding-top: 50px;
+    }
+    .temp1_bottompadder70 {
+        padding-bottom: 35px;
+    }
+    .temp1_toppadder50 {
+        padding-top: 25px;
+    }
+    .temp1_bottompadder50 {
+        padding-bottom: 25px;
+    }
+    .temp1_popular_courses {
+        text-align: center;
+    }
+    .temp1_popular_courses .temp1_course_img {
+        float: none;
+        width: auto;
+        display: inline-block;
+    }
+    .temp1_course_data .temp1_course_data_left {
+        width: 100%;
+    }
+    .temp1_course_data .temp1_course_data_right {
+        float: none;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .temp1_procedurediv:after {
+        display: none;
+    }
+    .temp1_mockupimg {
+        text-align: center;
+    }
+    .temp1_mockupimg img {
+        display: inline-block;
+    }
+    .temp1_mockup_data {
+        padding: 50px 0 0px;
+    }
+    .temp1_bottompadder60 {
+        padding-bottom: 30px;
+    }
+    .temp1_yellow_wrapper {
+        text-align: center;
+        padding: 40px 0px;
+    }
+    .temp1_yellow_wrapper h3 {
+        padding-bottom: 20px;
+    }
+    .temp1_yellow_wrapper a {
+        float: none;
+        display: inline-block;
+    }
+    .temp1_subscribeform {
+        margin: 30px 0 30px;
+    }
+    .temp1_footerwrapper {
+        text-align: center;
+    }
+    .temp1_footer_menu {
+        float: none;
+        display: inline-block;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 479px) {
+    .temp1_subscribeform .form-group .form-control {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .temp1_subscribeform button {
+        position: relative;
+        padding: 19px 15px;
+        margin-top: 10px;
+    }
+    .temp1_social_link ul li a {
+        width: 30px;
+        height: 30px;
+    }
+    .temp1_social_link ul li a i {
+        line-height: 30px;
+    }
+    .temp1_social_link {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .temp1_social_link ul li:first-child {
+        padding-top: 5px;
+        padding-left: 0;
+    }
+}
+
+
+/*final css added*/
+
+a {
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.ed_link:hover {
+    color: #222 !important;
+}
+
+.temp1_services,
+.ed_box {
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.temp1_services:hover {
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 1, 0.09);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 1, 0.09);
+}
+
+.temp1_featuresdiv:hover .ed_box {
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 1, 0.09);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 1, 0.09);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+/*preloader*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999999;
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url("ajax-loader.gif.html");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+
+
+/* ----------------------------------
+Back to top
+---------------------------------- */
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 2%;
+    text-align: center;
+    color: #fff;
+   
+    background: #6363d9;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.back-to-top span {
+    padding: 0;
+    color: #fff;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+    padding: 10px 18px;
+    font-size: 16px;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    background: #fff;
+}
+
+.back-to-top:hover span,
+.back-to-top:focus span {
+    font-size: 25px;
+    color: #6363d9;
+    font-weight: 900;
+}
+
+@media (max-width:768px) {
+    .back-to-top:hover span,
+    .back-to-top:focus span {
+        font-size: 25px;
+    }
+}
+
+
+/*---------responsive css end -----*/
